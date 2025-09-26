@@ -21,12 +21,7 @@ A computer vision project to classify **33 car brands** from images using Convol
 
 ```
 .
-├─ notebooks/
-│  ├─ 01_data_eda.ipynb             # EDA, class balance, sample grids
-│  ├─ 02_baseline_cnn.ipynb         # Small CNN, callbacks, baseline metrics
-│  ├─ 03_transfer_learning.ipynb    # EfficientNet/ResNet fine‑tuning
-│  ├─ 04_eval_gradcam.ipynb         # Reports, confusion matrix, Grad‑CAM
-│  └─ 05_hparam_tuning.ipynb        # LR, batch size, dropout/L2, aug strength
+├─ car-brand-classification.ipynb
 ├─ utils/
 │  └─ gradcam.py                    # Reusable Grad‑CAM helper
 ├─ models/                          # Saved weights/checkpoints (git‑ignored)
@@ -70,7 +65,7 @@ __pycache__/
 2. Attach the dataset from Kaggle Datasets.
 3. Run in order: `01_data_eda` → `02_baseline_cnn` → `03_transfer_learning`.
 4. Use `04_eval_gradcam` to produce the **classification report**, **confusion matrix**, and **Grad‑CAM** figures.
-5. (Optional) Use `05_hparam_tuning` for automated sweeps.
+
 
 ---
 
@@ -114,8 +109,8 @@ Record the best configuration and compare against the baseline.
 
 ## 9) Links
 
-* **Kaggle Notebook**: *(add your public link here)*
-* **Dataset**: Kaggle — Car Brand Classification
+* **Kaggle Notebook**: https://www.kaggle.com/code/pelinsuustun/car-brand-classification
+* **Dataset**: https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset
 
 ---
 
@@ -123,9 +118,4 @@ Record the best configuration and compare against the baseline.
 
 Released under the terms specified in `LICENSE`.
 
----
 
-## Acknowledgements
-
-* Bootcamp organizers & dataset authors.
-* Open‑source libraries used in this project.
